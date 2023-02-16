@@ -10,4 +10,4 @@ src/.vuepress/public/assets/
 src/demo/
 src/guide/
 src/.vuepress/searchPro.ts
-
+.idea/
