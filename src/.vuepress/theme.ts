@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://energy.advisera.com.cn",
 
   author: {
-    name: "七分饱",
+    name: "EnMS",
     url: "https://www.advisera.com.cn",
   },
 
@@ -24,7 +24,7 @@ export default hopeTheme({
 
   sidebar: Side,
 
-  //footer: "MIT 协议, 版权所有 © Copyright © 2022-2023 <a href='https://energy.advisera.com.cn'>EnMS</a>",
+  //footer: "MIT, Copyright © 2022-2023 <a href='https://energy.advisera.com.cn'>EnMS</a>",
 
   displayFooter: true,
 
@@ -96,12 +96,12 @@ export default hopeTheme({
   },
 
   plugins: {
-    comment: {
-      /*
-       @ts-expect-error: You should generate and use your own comment service
-      */
-      provider: "Waline",
-    },
+    // comment: {
+    //   /*
+    //    @ts-expect-error: You should generate and use your own comment service
+    //   */
+    //   provider: "Waline",
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
