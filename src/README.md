@@ -21,7 +21,7 @@ features:
     details: 帮助组织建立必要的体系和过程，不断改进能源绩效
     link: /energy/50001.html
 
-  - title: EnMS对认证机构的要求
+  - title: EnMS对机构的要求
     icon: react
     details: 规定了能源管理体系（EnMS）特定领域的要求，以确保审核和认证的有效性
     link: /energy/50003.html
