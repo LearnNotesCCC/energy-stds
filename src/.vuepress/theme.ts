@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://energy.advisera.com.cn",
 
   author: {
-    name: "EnMS",
-    url: "https://www.advisera.com.cn",
+    name: "",
+    url: "",
   },
 
   iconAssets: "iconfont",//设置icon图库：还可以选择"fontawesome""iconfont"
@@ -24,7 +24,7 @@ export default hopeTheme({
 
   sidebar: Side,
 
-  //footer: "MIT, Copyright © 2022-2023 <a href='https://energy.advisera.com.cn'>EnMS</a>",
+  footer: "本网站内容为学习笔记，仅限本人学习使用，请勿复制、下载、打印等",
 
   displayFooter: true,
 
