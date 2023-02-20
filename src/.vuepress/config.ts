@@ -8,16 +8,29 @@ export default defineUserConfig({
   title: "能源、碳管理",
   description: "关注企业节能减排，可持续发展",
 
-  head: [
-    [// google adsense
-      "script",
-      {
-        async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3573055271441666",
-        crossorigin: "anonymous",
-      },
+  // head: [
+  //   [// google adsense
+  //     "script",
+  //     {
+  //       async: true,
+  //       src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3573055271441666",
+  //       crossorigin: "anonymous",
+  //     },
+  //   ],
+  // ],
+
+
+    head: [
+      [// google adsense
+        "script",
+        {
+          "data-ad-client": "ca-pub-3573055271441666",
+          async: true,
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        }
+      ]
     ],
-  ],
+
 
   // locales: {
   //   "/": {
