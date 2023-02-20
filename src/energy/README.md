@@ -1,7 +1,7 @@
 ---
 title: 能源管理体系
 index: false
-icon: creative
+icon: light
 category:
   - 标准内容
 
