@@ -11,7 +11,7 @@ actions:
     type: primary
 
   - text: 碳管理体系
-    link: /
+    link: /carbon/
 
 
 
